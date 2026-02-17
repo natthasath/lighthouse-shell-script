@@ -21,7 +21,7 @@ while IFS= read -r url; do
         lighthouse "$url" \
             --form-factor=desktop \
             --screenEmulation.disabled \
-            --chrome-flags="--no-sandbox --disable-gpu --incognito" \
+            --chrome-flags="--no-sandbox --disable-gpu --incognito --user-data-dir=/tmp/lighthouse" \
             --throttling-method=provided \
             --output html,json \
             --output-path "$OUTPUT_FILE" \
