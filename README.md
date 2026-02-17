@@ -11,3 +11,8 @@ Lighthouse is an open-source, automated tool by Google for improving the quality
 ```
 npm install -g lighthouse
 ```
+
+### Run
+```shell
+lighthouse https://nida.ac.th --form-factor=desktop --screenEmulation.disabled --chrome-flags="--no-sandbox --disable-gpu" --throttling-method=provided
+```
