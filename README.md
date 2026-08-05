@@ -44,9 +44,9 @@ bash scripts/install.sh
 Edit `scripts/list.txt` and add one target URL per line:
 
 ```
-https://nida.ac.th/
-https://mba.nida.ac.th/en/home
-https://law.nida.ac.th/
+https://www.wikipedia.org/
+https://www.mozilla.org/
+https://developer.mozilla.org/
 ```
 
 ### 🏆 Usage
@@ -54,7 +54,7 @@ https://law.nida.ac.th/
 Audit a single URL directly:
 
 ```shell
-lighthouse https://nida.ac.th --form-factor=desktop --screenEmulation.disabled --chrome-flags="--no-sandbox --disable-gpu" --throttling-method=provided
+lighthouse https://example.com --form-factor=desktop --screenEmulation.disabled --chrome-flags="--no-sandbox --disable-gpu" --throttling-method=provided
 ```
 
 Batch-audit every URL in `list.txt` and build the dashboard:
