@@ -81,7 +81,7 @@ Reports and the dashboard (`index.html`) are written to `scripts/lighthouse_repo
 
 ### 📜 License
 
-This project is licensed under the [MIT License](LICENSE.md).
+This project is licensed under the [MIT License](LICENSE).
 
 ### ✉️ Contact
 
